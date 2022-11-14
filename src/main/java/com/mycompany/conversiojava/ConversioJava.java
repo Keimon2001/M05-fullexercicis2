@@ -9,6 +9,15 @@ public class ConversioJava {
 
          public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int opcio;
+        
+        do{
+            System.out.println("OPCIONS A TRIAR");
+            System.out.println("1. De EURO a LLIURA");
+            System.out.println("2. De LLIURA a EURO");
+            opcio=sc.nextInt();
+            
+        }while(opcio != 3);
         
         System.out.println("Introdueix en €");
         int valor_euros = sc.nextInt();
